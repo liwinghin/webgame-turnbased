@@ -1,0 +1,734 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e042e3a075d43734cb2151822f3efb89, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.7380437, g: 0.7750546, b: 0.8486583, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &195906572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195906573}
+  - component: {fileID: 195906575}
+  - component: {fileID: 195906574}
+  m_Layer: 5
+  m_Name: Back Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &195906573
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195906572}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 706378972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &195906574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195906572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &195906575
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195906572}
+  m_CullTransparentMesh: 1
+--- !u!1 &308108305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308108307}
+  - component: {fileID: 308108306}
+  m_Layer: 0
+  m_Name: Combat Start Json
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &308108306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308108305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9762e9c94362384982fab0115f07875, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: CombatStart
+  debugJson: "{\r\n  \"success\": true,\r\n  \"body\": {\r\n    \"combat\": {\r\n     
+    \"id\": \"21\",\r\n      \"combatType\": \"ROBBERY\",\r\n      \"stage\": \"TAVERN_01\"\r\n   
+    },\r\n    \"option\": {\r\n      \"bgmVolume\": 0.2,\r\n      \"sfxVolume\":
+    1\r\n    },\r\n    \"teammates\": [\r\n      {\r\n        \"name\": \"MetaBays
+    Pirate #156\",\r\n        \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_4/001-080-005-003-018-021-022-045-001-009-000/img1024.png\",\r\n       
+    \"charType\": \"PIRATE\",\r\n        \"partsCode\": \"001-080-005-003-018-021-022-045-001-009-000\",\r\n       
+    \"tier\": \"4\",\r\n        \"turnSpeed\": 72,\r\n        \"hp\": 110,\r\n       
+    \"energy\": 79,\r\n        \"energyRecover\": 8,\r\n        \"normalDamage\":
+    17,\r\n        \"missChance\": 22,\r\n        \"criticalChance\": 12,\r\n       
+    \"luck\": 63,\r\n        \"specials\": [\r\n          {\r\n            \"name\":
+    \"JUMP_ATTACK\",\r\n            \"damage\": 32,\r\n            \"energy\": 10\r\n         
+    },\r\n          {\r\n            \"name\": \"GUN_ATTACK\",\r\n            \"damage\":
+    53,\r\n            \"energy\": 20\r\n          }\r\n        ]\r\n      },\r\n     
+    {\r\n        \"name\": \"MetaBays Pirate #90\",\r\n        \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/001-072-004-067-004-007-000-000-000-000-000/img1024.png\",\r\n       
+    \"charType\": \"PIRATE\",\r\n        \"partsCode\": \"001-072-004-067-004-007-000-000-000-000-000\",\r\n       
+    \"tier\": \"2\",\r\n        \"turnSpeed\": 36,\r\n        \"hp\": 72,\r\n       
+    \"energy\": 30,\r\n        \"energyRecover\": 7,\r\n        \"normalDamage\":
+    7,\r\n        \"missChance\": 23,\r\n        \"criticalChance\": 13,\r\n       
+    \"luck\": 29,\r\n        \"specials\": [\r\n          {\r\n            \"name\":
+    \"JUMP_ATTACK\",\r\n            \"damage\": 10,\r\n            \"energy\": 10\r\n         
+    }\r\n        ]\r\n      },\r\n      {\r\n        \"name\": \"MetaBays Pirate
+    #101\",\r\n        \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/000-025-013-020-008-007-000-000-000-000-000/img1024.png\",\r\n       
+    \"charType\": \"PIRATE\",\r\n        \"partsCode\": \"000-025-013-020-008-007-000-000-000-000-000\",\r\n       
+    \"tier\": \"2\",\r\n        \"turnSpeed\": 31,\r\n        \"hp\": 46,\r\n       
+    \"energy\": 41,\r\n        \"energyRecover\": 8,\r\n        \"normalDamage\":
+    8,\r\n        \"missChance\": 22,\r\n        \"criticalChance\": 12,\r\n       
+    \"luck\": 21,\r\n        \"specials\": [\r\n          {\r\n            \"name\":
+    \"JUMP_ATTACK\",\r\n            \"damage\": 15,\r\n            \"energy\": 10\r\n         
+    }\r\n        ]\r\n      },\r\n      {\r\n        \"name\": \"MetaBays Pirate
+    #12\",\r\n        \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_4/000-114-004-071-011-012-022-026-001-005-000/img1024.png\",\r\n       
+    \"charType\": \"PIRATE\",\r\n        \"partsCode\": \"000-114-004-071-011-012-022-026-001-005-000\",\r\n       
+    \"tier\": \"4\",\r\n        \"turnSpeed\": 64,\r\n        \"hp\": 106,\r\n       
+    \"energy\": 75,\r\n        \"energyRecover\": 8,\r\n        \"normalDamage\":
+    17,\r\n        \"missChance\": 27,\r\n        \"criticalChance\": 17,\r\n       
+    \"luck\": 71,\r\n        \"specials\": [\r\n          {\r\n            \"name\":
+    \"JUMP_ATTACK\",\r\n            \"damage\": 33,\r\n            \"energy\": 10\r\n         
+    },\r\n          {\r\n            \"name\": \"GUN_ATTACK\",\r\n            \"damage\":
+    55,\r\n            \"energy\": 20\r\n          }\r\n        ]\r\n      },\r\n     
+    {\r\n        \"name\": \"MetaBays Pirate #33\",\r\n        \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_4/000-058-013-066-014-009-026-031-001-010-000/img1024.png\",\r\n       
+    \"charType\": \"PIRATE\",\r\n        \"partsCode\": \"000-058-013-066-014-009-026-031-001-010-000\",\r\n       
+    \"tier\": \"4\",\r\n        \"turnSpeed\": 73,\r\n        \"hp\": 150,\r\n       
+    \"energy\": 75,\r\n        \"energyRecover\": 9,\r\n        \"normalDamage\":
+    12,\r\n        \"missChance\": 26,\r\n        \"criticalChance\": 16,\r\n       
+    \"luck\": 57,\r\n        \"specials\": [\r\n          {\r\n            \"name\":
+    \"JUMP_ATTACK\",\r\n            \"damage\": 23,\r\n            \"energy\": 10\r\n         
+    },\r\n          {\r\n            \"name\": \"GUN_ATTACK\",\r\n            \"damage\":
+    48,\r\n            \"energy\": 20\r\n          }\r\n        ]\r\n      }\r\n   
+    ],\r\n    \"ship\": {\r\n      \"name\": \"MetaBays Ship #1\",\r\n      \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-035-016-014-000-000-000-000-000-000-000/img350.png\",\r\n     
+    \"partsCode\": \"001-003-004-001-000-000-000\",\r\n      \"tier\": \"2\",\r\n     
+    \"cannonDamage\": 40,\r\n      \"cannonTurn\": 4\r\n    },\r\n    \"waves\":
+    [\r\n      {\r\n        \"enemies\": [\r\n          {\r\n            \"name\":
+    \"MetaBays Pirate #27\",\r\n            \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_3/000-093-008-062-006-003-004-044-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-093-008-062-006-003-004-044-000-000-000\",\r\n           
+    \"tier\": \"3\",\r\n            \"turnSpeed\": 61,\r\n            \"hp\": 112,\r\n           
+    \"energy\": 61,\r\n            \"energyRecover\": 7,\r\n            \"normalDamage\":
+    8,\r\n            \"missChance\": 25,\r\n            \"criticalChance\": 15,\r\n           
+    \"luck\": 49,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 15,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #80\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/001-078-000-008-011-005-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"001-078-000-008-011-005-000-000-000-000-000\",\r\n           
+    \"tier\": \"2\",\r\n            \"turnSpeed\": 31,\r\n            \"hp\": 88,\r\n           
+    \"energy\": 45,\r\n            \"energyRecover\": 5,\r\n            \"normalDamage\":
+    9,\r\n            \"missChance\": 22,\r\n            \"criticalChance\": 12,\r\n           
+    \"luck\": 19,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 18,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #133\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-038-013-041-000-000-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-038-013-041-000-000-000-000-000-000-000\",\r\n           
+    \"tier\": \"1\",\r\n            \"turnSpeed\": 26,\r\n            \"hp\": 10,\r\n           
+    \"energy\": 12,\r\n            \"energyRecover\": 5,\r\n            \"normalDamage\":
+    3,\r\n            \"missChance\": 23,\r\n            \"criticalChance\": 13,\r\n           
+    \"luck\": 27,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 4,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #7\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-023-012-017-000-000-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-023-012-017-000-000-000-000-000-000-000\",\r\n           
+    \"tier\": \"1\",\r\n            \"turnSpeed\": 20,\r\n            \"hp\": 36,\r\n           
+    \"energy\": 8,\r\n            \"energyRecover\": 4,\r\n            \"normalDamage\":
+    3,\r\n            \"missChance\": 23,\r\n            \"criticalChance\": 13,\r\n           
+    \"luck\": 32,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 5,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #200\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-011-006-097-000-000-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-011-006-097-000-000-000-000-000-000-000\",\r\n           
+    \"tier\": \"1\",\r\n            \"turnSpeed\": 16,\r\n            \"hp\": 64,\r\n           
+    \"energy\": 4,\r\n            \"energyRecover\": 5,\r\n            \"normalDamage\":
+    2,\r\n            \"missChance\": 22,\r\n            \"criticalChance\": 12,\r\n           
+    \"luck\": 23,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 4,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          }\r\n       
+    ]\r\n      },\r\n      {\r\n        \"enemies\": [\r\n          {\r\n           
+    \"name\": \"MetaBays Pirate #142\",\r\n            \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/001-047-007-079-002-012-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"001-047-007-079-002-012-000-000-000-000-000\",\r\n           
+    \"tier\": \"2\",\r\n            \"turnSpeed\": 45,\r\n            \"hp\": 58,\r\n           
+    \"energy\": 33,\r\n            \"energyRecover\": 5,\r\n            \"normalDamage\":
+    9,\r\n            \"missChance\": 23,\r\n            \"criticalChance\": 13,\r\n           
+    \"luck\": 25,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 17,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #16\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-062-008-044-017-004-007-040-002-010-003/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"001-062-008-044-017-004-007-040-002-010-003\",\r\n           
+    \"tier\": \"5\",\r\n            \"turnSpeed\": 88,\r\n            \"hp\": 188,\r\n           
+    \"energy\": 86,\r\n            \"energyRecover\": 11,\r\n            \"normalDamage\":
+    18,\r\n            \"missChance\": 27,\r\n            \"criticalChance\": 17,\r\n           
+    \"luck\": 68,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 36,\r\n               
+    \"energy\": 10\r\n              },\r\n              {\r\n                \"name\":
+    \"GUN_ATTACK\",\r\n                \"damage\": 66,\r\n                \"energy\":
+    20\r\n              }\r\n            ]\r\n          },\r\n          {\r\n           
+    \"name\": \"MetaBays Pirate #85\",\r\n            \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/000-046-011-063-017-006-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-046-011-063-017-006-000-000-000-000-000\",\r\n           
+    \"tier\": \"2\",\r\n            \"turnSpeed\": 27,\r\n            \"hp\": 76,\r\n           
+    \"energy\": 30,\r\n            \"energyRecover\": 7,\r\n            \"normalDamage\":
+    8,\r\n            \"missChance\": 23,\r\n            \"criticalChance\": 13,\r\n           
+    \"luck\": 32,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 15,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          },\r\n         
+    {\r\n            \"name\": \"MetaBays Pirate #113\",\r\n            \"image\":
+    \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_4/000-057-009-003-008-015-016-057-001-005-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-057-009-003-008-015-016-057-001-005-000\",\r\n           
+    \"tier\": \"4\",\r\n            \"turnSpeed\": 75,\r\n            \"hp\": 128,\r\n           
+    \"energy\": 53,\r\n            \"energyRecover\": 15,\r\n            \"normalDamage\":
+    15,\r\n            \"missChance\": 26,\r\n            \"criticalChance\": 16,\r\n           
+    \"luck\": 58,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 28,\r\n               
+    \"energy\": 10\r\n              },\r\n              {\r\n                \"name\":
+    \"GUN_ATTACK\",\r\n                \"damage\": 60,\r\n                \"energy\":
+    20\r\n              }\r\n            ]\r\n          },\r\n          {\r\n           
+    \"name\": \"MetaBays Pirate #119\",\r\n            \"image\": \"https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-101-002-092-000-000-000-000-000-000-000/img1024.png\",\r\n           
+    \"charType\": \"PIRATE\",\r\n            \"partsCode\": \"000-101-002-092-000-000-000-000-000-000-000\",\r\n           
+    \"tier\": \"1\",\r\n            \"turnSpeed\": 4,\r\n            \"hp\": 32,\r\n           
+    \"energy\": 6,\r\n            \"energyRecover\": 6,\r\n            \"normalDamage\":
+    7,\r\n            \"missChance\": 22,\r\n            \"criticalChance\": 12,\r\n           
+    \"luck\": 18,\r\n            \"specials\": [\r\n              {\r\n               
+    \"name\": \"JUMP_ATTACK\",\r\n                \"damage\": 12,\r\n               
+    \"energy\": 10\r\n              }\r\n            ]\r\n          }\r\n       
+    ]\r\n      }\r\n    ]\r\n  }\r\n}"
+--- !u!4 &308108307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308108305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &368005864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 368005866}
+  - component: {fileID: 368005865}
+  m_Layer: 0
+  m_Name: Audio Listener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &368005865
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368005864}
+  m_Enabled: 1
+--- !u!4 &368005866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368005864}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &487837863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 487837866}
+  - component: {fileID: 487837865}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &487837865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487837863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &487837866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487837863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &495519064
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 495519065}
+  - component: {fileID: 495519066}
+  m_Layer: 0
+  m_Name: Setup Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495519065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495519064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495519066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495519064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: babcaab08cc514a4581d12a5c40299b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_nextSceneName: CombatScene
+--- !u!1 &706378968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 706378972}
+  - component: {fileID: 706378971}
+  - component: {fileID: 706378970}
+  - component: {fileID: 706378969}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &706378969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706378968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &706378970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706378968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 2360, y: 1492}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &706378971
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706378968}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &706378972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706378968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 195906573}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1062591834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062591835}
+  m_Layer: 0
+  m_Name: == UI ==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062591835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062591834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1317177762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317177763}
+  m_Layer: 0
+  m_Name: == Logic ==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317177763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317177762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1383380092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1383380093}
+  m_Layer: 0
+  m_Name: == Debug ==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1383380093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383380092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1598309682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598309683}
+  m_Layer: 0
+  m_Name: == System ==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1598309683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598309682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26ab11014f584912aa7a117c01eda01, type: 3}
+  m_Name: ShipAttack
+  m_EditorClassIdentifier: 
+  actionData:
+    m_actionName: SHIP_ATTACK
+    m_actionType: 0
+    m_targetType: 2
+    m_animationType: 1
+    m_actionAnimation: 13
+    m_audioType: 3
+    m_actionIcon: {fileID: 21300000, guid: 4fe95114ae76cd8419e1520f769f2cd7, type: 3}
+    m_AttackVFX: Ship_Attack
+    m_gotDamagedVFX: Gun_Damage

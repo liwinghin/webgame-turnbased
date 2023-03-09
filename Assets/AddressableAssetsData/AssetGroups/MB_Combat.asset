@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MB_Combat
+  m_EditorClassIdentifier: 
+  m_GroupName: MB_Combat
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c52488e3f77db4a469d2efc305f8565a
+  m_SerializeEntries:
+  - m_GUID: 9d4313b16364bfb4288b8c9cfd3c477d
+    m_Address: Item/Sword_013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3b90b08215e57548a495c783d8ebc1e
+    m_Address: Item/Sword_022
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85a5b7ba3a32b334fbdc9e1ffc1c2de8
+    m_Address: Item/Sword_023
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64c1638f5b261ea4082fa39cef2aff9b
+    m_Address: Item/Sword_040
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 481ac0fe4ad905b4f8ac4b67d6dfdb06
+    m_Address: Item/Sword_002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aba88f6df35c78c43aa789137fd24a9b
+    m_Address: Item/Sword_009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 028f354de33fa7e49a481996e683a8b8
+    m_Address: Item/Sword_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1345d2818a4f994ab1c8136c45acace
+    m_Address: Item/Sword_031
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82e9e09fbc280fb48a0a19bf8b137893
+    m_Address: Item/Sword_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a2bc72221bb0e84ca8ed16d06bfb627
+    m_Address: Item/Sword_034
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 99e911c725b3e194794269641fc8147f
+    m_Address: Item/Sword_039
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bd13d3fcd9d4ddc4dac4b1789eb3f704
+    m_Address: Item/Sword_028
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0023e369e02e2494ca1eeb024b2e7211
+    m_Address: Item/Sword_021
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50ea1f10bac6062448e016ea89cfda57
+    m_Address: Item/Sword_044
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f25ec436820c24143a3a4784c641419a
+    m_Address: Item/Sword_042
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f51e7ac16a7be054193dd7a6ea0fca97
+    m_Address: Item/Sword_006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c8e0af7a5a1fe3647a9e3fe657ddb0c7
+    m_Address: Item/Sword_045
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 38d32f57424b177498857a4751219127
+    m_Address: Item/Sword_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07e2343eee7939d4ba0f08c47903dfe7
+    m_Address: Item/Sword_016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf493ebf5d405804f9b3c2aae57b0e34
+    m_Address: Item/Sword_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ab71a43849188f469cd19668ca19a68
+    m_Address: Item/Sword_037
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4d4198af2648c64ba3bc8b1c419ab1b
+    m_Address: Item/Sword_018
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a4198901ea1e7543917bc1a7922cbab
+    m_Address: Item/Sword_024
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db56d6ed981144944a4e474729c2a9a9
+    m_Address: Item/Sword_029
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6fbcc63e3de548e4bb50df9e239bde0f
+    m_Address: Item/Sword_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4257a1e3a05a49d48aafa6b38d27103c
+    m_Address: Item/Sword_036
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f5f02f20e809384c8fee7b8997b083f
+    m_Address: Item/Sword_010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ec7a790321c0724ea923172c7d9df8e
+    m_Address: Item/Sword_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c720e1588b1c2941920989e6ce46c17
+    m_Address: Item/Sword_019
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bfa881cca0177046b8a43ae27434168
+    m_Address: Item/Sword_035
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee9ba06318a905d49be7f24716ca5c56
+    m_Address: Item/Sword_033
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62696705b30cb40468ed357de991e5a9
+    m_Address: Item/Sword_030
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71615272d75613145aef32aa101b3f42
+    m_Address: Item/Sword_043
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7e278923253a57b4cb65b22cd7dfbebe
+    m_Address: Item/Sword_041
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b15ee7360f8921b4987916e71cb11949
+    m_Address: Item/Sword_032
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c27b632a29bad345a7facc0c71842e8
+    m_Address: Item/Sword_020
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bcc6203cb69365847b82e5af86433142
+    m_Address: Item/Sword_046
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86c4764f8232c794d97cdb9218f85507
+    m_Address: Item/Sword_027
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90ccfc6905b467940b470593ffa66e45
+    m_Address: Item/Sword_017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fc4a55480521572469f1af497179fb8b
+    m_Address: Item/Sword_047
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: adb4c2dce73a5ee4c8b25c5e1f0641fc
+    m_Address: Item/Sword_025
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b033d541cd224c148b7fbedb3012b358
+    m_Address: Item/Sword_003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5a88c83fff24574bb2181f4d8daa0c7
+    m_Address: Item/Sword_000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22e16cc37635c5042abcab062f9786ee
+    m_Address: Item/Sword_015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a7b9dad6acb78c4bb19e0cd470cf477
+    m_Address: Item/Sword_012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c52490362ade36a48bd21b85cdcca46c
+    m_Address: Item/Sword_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b58e300ec73cf5647a5e7d06d29e1e79
+    m_Address: Item/Sword_026
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96b382b2493976f45b3cd83414a66cf4
+    m_Address: Item/Sword_038
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12d7536e5e604124f879fc63a774e856
+    m_Address: Item/Gun_009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e95fa34af654a294a9f42363886a9fa3
+    m_Address: Item/Gun_007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37949ab472b09144d830a1488c375b3f
+    m_Address: Item/Gun_016
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b716d8eda5449846944df15eed79345
+    m_Address: Item/Gun_005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8ef140a4d06ef784e9c5dfdf111e6f3b
+    m_Address: Item/Gun_012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 19fc8f18f96fb9d4eb779343cd47f00f
+    m_Address: Item/Gun_011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5fb63da58df6cea4bacdb7a88b8785ca
+    m_Address: Item/Gun_010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c6e6de9e091cb6545935a85681cd46ff
+    m_Address: Item/Gun_002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5cfc76898f6cf1499d6e097ccc26385
+    m_Address: Item/Gun_001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 31fba59272362564aba97c199c71e1b6
+    m_Address: Item/Gun_015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79554707ee1609e4ea11455e26ef325f
+    m_Address: Item/Gun_004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ecaaddb06f77884296cb864cc9b54cb
+    m_Address: Item/Gun_000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e5b7c62ce21eaa47adf591179e2e60e
+    m_Address: Item/Gun_008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e2d2a6f4bac2eab469f22e85a3a52810
+    m_Address: Item/Gun_017
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9609b5c7240e6004cab8dd74fe3d1400
+    m_Address: Item/Gun_003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee32f689cf6cc2544a6b5df10906cb32
+    m_Address: Item/Gun_013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 829f6e0b64aeeff4dafa15364db6de80
+    m_Address: Item/Gun_006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 785a2d79a03dadd4aa1193bc9bf8e504
+    m_Address: Item/Gun_014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 496b867dc372a6e4cbd010315cdb670c
+    m_Address: Assets/MB_Combat/Audio/SFX/Heavy sword wooshes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - JumpAtk
+  - m_GUID: 7361ee6cf981841f39f6cbf65943041c
+    m_Address: Assets/MB_Combat/Audio/SFX/Sniper Shots
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GunAtk
+  - m_GUID: 8414710632561a142b7ddd1e0e680ac1
+    m_Address: Assets/MB_Combat/Audio/SFX/Sword Wooshes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SwordAtk
+  - m_GUID: 7bad2d56139c64365ac12b014bad8ca3
+    m_Address: Assets/MB_Combat/Audio/BGM
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bgm
+  - m_GUID: f98e5d57e26442443b742cccfe088471
+    m_Address: Assets/MB_Combat/Audio/Click/Click ( fantasy ) (17).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mouse
+  - m_GUID: 022f01a4bd2244a478a3bac0e758b20f
+    m_Address: Assets/MB_Combat/Audio/Win/Win (7).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Win
+  - m_GUID: 3e37bebbbf24e9e428f023a09fc2d8e8
+    m_Address: Assets/MB_Combat/Audio/Lose/Lose (32).wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Lose
+  - m_GUID: 30688bd68cb2c454e8384565a099d0df
+    m_Address: Assets/MB_Combat/Audio/SFX/Explosion/Explosion.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Explosion
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 66b714a46b406c545b632b48b2a842dc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ac9000ca90e437c449e180ac82f5093e, type: 2}
+    - {fileID: 11400000, guid: 58737661d3034f54f89d3df83f9e4b48, type: 2}

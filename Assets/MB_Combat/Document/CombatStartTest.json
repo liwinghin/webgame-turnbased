@@ -1,0 +1,659 @@
+{
+    "success": true,
+    "body": {
+        "combat": {
+            "combat_type": "ROBBERY"
+        },
+        "ship": {
+            "name": "MetaBays Ship #1",
+            "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-035-016-014-000-000-000-000-000-000-000/img350.png",
+            "attributes": [
+                {
+                    "trait_type": "Tier",
+                    "value": "2"
+                },
+                {
+                    "trait_type": "Clan",
+                    "value": "COMMON"
+                },
+                {
+                    "trait_type": "Attack",
+                    "value": 40
+                },
+                {
+                    "trait_type": "Durability",
+                    "value": 85
+                },
+                {
+                    "trait_type": "Speed",
+                    "value": 70
+                },
+                {
+                    "trait_type": "Capacity",
+                    "value": 10
+                }
+            ],
+            "partsCode": "001-003-004-001-000-000-000"
+        },
+        "pirates": [
+            {
+                "name": "MetaBays Pirate #1",
+                "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-035-016-014-000-000-000-000-000-000-000/img350.png",
+                "attributes": [
+                    {
+                        "trait_type": "Tier",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Energy",
+                        "value": 40
+                    },
+                    {
+                        "trait_type": "Strength",
+                        "value": 85
+                    },
+                    {
+                        "trait_type": "Agility",
+                        "value": 70
+                    },
+                    {
+                        "trait_type": "Willpower",
+                        "value": 10
+                    },
+                    {
+                        "trait_type": "Intelligence",
+                        "value": 20
+                    },
+                    {
+                        "trait_type": "Luck",
+                        "value": 60
+                    }
+                ],
+                "specials": [
+                    "JUMP_ATTACK"
+                ],
+                "partsCode": "000-091-012-054-013-004-007-006-002-001-003"
+            },
+            {
+                "name": "MetaBays Pirate #2",
+                "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-035-016-014-000-000-000-000-000-000-000/img350.png",
+                "attributes": [
+                    {
+                        "trait_type": "Tier",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Energy",
+                        "value": 40
+                    },
+                    {
+                        "trait_type": "Strength",
+                        "value": 85
+                    },
+                    {
+                        "trait_type": "Agility",
+                        "value": 90
+                    },
+                    {
+                        "trait_type": "Willpower",
+                        "value": 10
+                    },
+                    {
+                        "trait_type": "Intelligence",
+                        "value": 20
+                    },
+                    {
+                        "trait_type": "Luck",
+                        "value": 60
+                    }
+                ],
+                "specials": [
+                    "JUMP_ATTACK",
+                    "GUN_ATTACK"
+                ],
+                "partsCode": "000-069-006-077-018-014-001-054-002-003-003"
+            },
+            {
+                "name": "MetaBays Pirate #3",
+                "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/000-080-010-036-006-011-000-000-000-000-000/img350.png",
+                "attributes": [
+                    {
+                        "trait_type": "Tier",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Energy",
+                        "value": 40
+                    },
+                    {
+                        "trait_type": "Strength",
+                        "value": 85
+                    },
+                    {
+                        "trait_type": "Agility",
+                        "value": 83
+                    },
+                    {
+                        "trait_type": "Willpower",
+                        "value": 10
+                    },
+                    {
+                        "trait_type": "Intelligence",
+                        "value": 20
+                    },
+                    {
+                        "trait_type": "Luck",
+                        "value": 60
+                    }
+                ],
+                "specials": [
+                    "JUMP_ATTACK",
+                    "GUN_ATTACK"
+                ],
+                "partsCode": "000-039-014-075-014-021-011-069-002-009-004"
+            },
+            {
+                "name": "MetaBays Pirate #4",
+                "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_2/000-080-010-036-006-011-000-000-000-000-000/img350.png",
+                "attributes": [
+                    {
+                        "trait_type": "Tier",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Energy",
+                        "value": 40
+                    },
+                    {
+                        "trait_type": "Strength",
+                        "value": 85
+                    },
+                    {
+                        "trait_type": "Agility",
+                        "value": 70
+                    },
+                    {
+                        "trait_type": "Willpower",
+                        "value": 10
+                    },
+                    {
+                        "trait_type": "Intelligence",
+                        "value": 20
+                    },
+                    {
+                        "trait_type": "Luck",
+                        "value": 60
+                    }
+                ],
+                "specials": [
+                    "JUMP_ATTACK"
+                ],
+                "partsCode": "001-110-014-084-000-000-000-000-000-000-000"
+            },
+            {
+                "name": "MetaBays Pirate #5",
+                "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_1/000-035-016-014-000-000-000-000-000-000-000/img350.png",
+                "attributes": [
+                    {
+                        "trait_type": "Tier",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Energy",
+                        "value": 40
+                    },
+                    {
+                        "trait_type": "Strength",
+                        "value": 85
+                    },
+                    {
+                        "trait_type": "Agility",
+                        "value": 70
+                    },
+                    {
+                        "trait_type": "Willpower",
+                        "value": 10
+                    },
+                    {
+                        "trait_type": "Intelligence",
+                        "value": 20
+                    },
+                    {
+                        "trait_type": "Luck",
+                        "value": 60
+                    }
+                ],
+                "specials": [
+                    "JUMP_ATTACK",
+                    "GUN_ATTACK"
+                ],
+                "partsCode": "001-008-007-033-013-016-008-073-001-003-000"
+            }
+        ],
+        "enemy_ship": {
+            "name": "MetaBays Wolf #1",
+            "image": "https://www.example.com/ship.png",
+            "attributes": [
+                {
+                    "trait_type": "Tier",
+                    "value": "2"
+                },
+                {
+                    "trait_type": "Clan",
+                    "value": "CURSE"
+                },
+                {
+                    "trait_type": "Attack",
+                    "value": 40
+                },
+                {
+                    "trait_type": "Durability",
+                    "value": 85
+                },
+                {
+                    "trait_type": "Speed",
+                    "value": 70
+                },
+                {
+                    "trait_type": "Capacity",
+                    "value": 10
+                }
+            ],
+            "partsCode": "001-003-004-001-000-000-000"
+        },
+        "waves": [
+            {
+                "enemies": [
+                    {
+                        "name": "MetaBays Enemy #1",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "4"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 71
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK",
+                            "GUN_ATTACK"
+                        ],
+                        "partsCode": "001-005-006-067-017-017-021-014-002-007-001"
+                    },
+                    {
+                        "name": "MetaBays Enemy #2",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "3"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 70
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "001-000-011-048-002-003-004-063-000-000-000"
+                    },
+                    {
+                        "name": "MetaBays Enemy #3",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "2"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 83
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "000-046-015-108-011-018-000-000-000-000-000"
+                    },
+                    {
+                        "name": "MetaBays Enemy #4",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "1"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 70
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "001-027-015-061-000-000-000-000-000-000-000"
+                    },
+                    {
+                        "name": "MetaBays Enemy #5",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "4"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 68
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK",
+                            "GUN_ATTACK"
+                        ],
+                        "partsCode": "000-028-012-079-009-018-004-013-001-007-000"
+                    }
+                ]
+            },
+            {
+                "enemies": [
+                    {
+                        "name": "MetaBays Enemy #1",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "1"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 70
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "001-070-003-123-000-000-000-000-000-000-000"
+                    },
+                    {
+                        "name": "MetaBays Enemy #2",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "5"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK",
+                            "GUN_ATTACK"
+                        ],
+                        "partsCode": "000-054-001-080-018-005-001-039-002-002-003"
+                    },
+                    {
+                        "name": "MetaBays Enemy #3",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "1"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 70
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "000-103-000-066-000-000-000-000-000-000-000"
+                    },
+                    {
+                        "name": "MetaBays Enemy #4",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "4"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 86
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK",
+                            "GUN_ATTACK"
+                        ],
+                        "partsCode": "001-103-017-002-012-010-012-056-002-006-002"
+                    },
+                    {
+                        "name": "MetaBays Enemy #5",
+                        "image": "https://metabays.sfo3.cdn.digitaloceanspaces.com/assets/pirate/tier_5/001-057-003-001-008-001-013-063-002-001-004/img350.png",
+                        "attributes": [
+                            {
+                                "trait_type": "Tier",
+                                "value": "3"
+                            },
+                            {
+                                "trait_type": "Energy",
+                                "value": 40
+                            },
+                            {
+                                "trait_type": "Strength",
+                                "value": 85
+                            },
+                            {
+                                "trait_type": "Agility",
+                                "value": 73
+                            },
+                            {
+                                "trait_type": "Willpower",
+                                "value": 10
+                            },
+                            {
+                                "trait_type": "Intelligence",
+                                "value": 20
+                            },
+                            {
+                                "trait_type": "Luck",
+                                "value": 60
+                            }
+                        ],
+                        "specials": [
+                            "JUMP_ATTACK"
+                        ],
+                        "partsCode": "001-085-000-011-011-003-000-000-000-000-000"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MB_Ship
+  m_EditorClassIdentifier: 
+  m_GroupName: MB_Ship
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9d7f5c44657e04cba9f8292ce193da74
+  m_SerializeEntries:
+  - m_GUID: 26391b59ab144459687dd780b7a61ae1
+    m_Address: ShipBody/000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46d24bd6d1e4046a0815af7cc2fd2150
+    m_Address: ShipBody/001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10a54c862944348b6aac50fe48d81df2
+    m_Address: ShipSkin/000000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70b0622a5a4084646a9c1e4d4b4dae05
+    m_Address: ShipSkin/000001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f003ae3574c4b42c3b88da5780dd3811
+    m_Address: ShipSkin/000003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 288604461f2ed49f3b85a5e7a1a2c17a
+    m_Address: ShipSkin/000002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6147aaa01ce8642cf926e76abfc8e8a8
+    m_Address: ShipSkin/001003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9345af10cb3ab41888960e44984daf94
+    m_Address: ShipSkin/001000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c78c78864f4ca48a082069e6fbd86e85
+    m_Address: ShipSkin/001002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed94642600bf94596afa7c85d88f926a
+    m_Address: ShipSkin/001001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21f4cda2cfb1c4b21a0d7fd0bcba02db
+    m_Address: ShipSail/000010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 211741ff6fde64915a88274c1543c624
+    m_Address: ShipSail/000015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1eaffd2b54c34ceca188bb73032d378
+    m_Address: ShipSail/000001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2d621436558d48f4ad396024b804356
+    m_Address: ShipSail/000013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 150ac5a8dd2db4a8aae5813665c4da8c
+    m_Address: ShipSail/000014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c63f4927586894abebc17f0a6393d03b
+    m_Address: ShipSail/000006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c72f7456a5d1749abb33a9560758b405
+    m_Address: ShipSail/000004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7fe15108b64846c199fbeedc4693bee
+    m_Address: ShipSail/000000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09a8237f6f29f4d808e3cc545222c2af
+    m_Address: ShipSail/000007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5977b0f9f14ab47758013271eb33e6a1
+    m_Address: ShipSail/000009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa9fc2723cf974312832ec905a8181cc
+    m_Address: ShipSail/000012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2db71db46417d409ea977d5b43c87477
+    m_Address: ShipSail/000003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4dc7890c24873401690ddf2360c8afa2
+    m_Address: ShipSail/000002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8de4dc70a922844d6b1737624830e130
+    m_Address: ShipSail/000011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f692797c62594d6ab696dd3dde06c7a
+    m_Address: ShipSail/000005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f9fd17537a4b4fe88eec6aedf808fb9
+    m_Address: ShipSail/000008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1b232498c1b1465fa571e66f8473a0f
+    m_Address: ShipSail/001000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92c8a82cdde4145eda8644f224290571
+    m_Address: ShipSail/001014
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2f395ef4592540a68dd76290a3a6222
+    m_Address: ShipSail/001011
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d297bac5739c7458b8f24ea1097de010
+    m_Address: ShipSail/001015
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0428e4467906c4363a323b1adaac082f
+    m_Address: ShipSail/001009
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 65a07ec6095c744b5990a769e458e9ef
+    m_Address: ShipSail/001008
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 261507fe253924ac7bb22fd3cf6d2d8d
+    m_Address: ShipSail/001003
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d96e7ab93d091443fac285fe1fbe4e36
+    m_Address: ShipSail/001007
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5afed60a157e8447e9728ca960f3ae9f
+    m_Address: ShipSail/001006
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca5d5f05009f74a2ea42875bedf47274
+    m_Address: ShipSail/001005
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb9199e3d92cf4ba18cb016d2b2a2506
+    m_Address: ShipSail/001004
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db6469640941a4b63b31c419d01023fb
+    m_Address: ShipSail/001012
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0cf0391638aed4574a06b69ab13b0687
+    m_Address: ShipSail/001013
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c57fd3a30f6940a9b5af6ec5ef91c67
+    m_Address: ShipSail/001002
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9dfe680e786e54bb097697c4e7aa74b2
+    m_Address: ShipSail/001001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3e0fcf469279b4041b6eca49930ea8e5
+    m_Address: ShipSail/001010
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13db831fb6e345447829b4af8ddbe72c
+    m_Address: ShipBody/C000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d04fd23f930275748971910287036371
+    m_Address: ShipBody/C001
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d412b4f45119c3c4c8284437e507c12b
+    m_Address: ShipSail/C000000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d54c1ed6c0bcf24a8fdb787171836bd
+    m_Address: ShipSail/C001000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be2e3f3e62e83c34ea4da9916bce6a01
+    m_Address: ShipSkin/C000000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 055ba71cd262b6448a250d7b75ffaf76
+    m_Address: ShipSkin/C001000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0ff23e318a949954689446c547b73598
+    m_Address: ShipProductBg/product000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 00a5ec8677ef84d538fca89a401a7dbe
+    m_Address: ShipDetailBg/detail000
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 66b714a46b406c545b632b48b2a842dc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0476e072a3c384bdfb9b5624276e992f, type: 2}
+    - {fileID: 11400000, guid: 4ac6e5f7f695a4e2c917ae2c7fe353cf, type: 2}

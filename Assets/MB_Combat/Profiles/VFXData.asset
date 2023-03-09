@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4260f7194644276a9b5604ebf69d68, type: 3}
+  m_Name: VFXData
+  m_EditorClassIdentifier: 
+  vfxData:
+  - vfxTag: Sword_Attack
+    prefab: {fileID: 1875751387468568, guid: 6966def0ccf94bf4b9171dd5e052dd38, type: 3}
+    size: 3
+  - vfxTag: Sword_Hit
+    prefab: {fileID: 1014011059874384, guid: b95414395192943489f09ad89a40cd68, type: 3}
+    size: 5
+  - vfxTag: Sword_HeavyAttack
+    prefab: {fileID: 1494690074406284, guid: 8aade490c0eed9146acd6098c9044b7f, type: 3}
+    size: 3
+  - vfxTag: Sword_HeavyHit
+    prefab: {fileID: 1014011059874384, guid: 8c6a957e1b1e13946aacba62a3dc3fcb, type: 3}
+    size: 5
+  - vfxTag: Gun_Shoot
+    prefab: {fileID: 1323863739380188, guid: 9d72fd120a29e3341b2a35540af0ed66, type: 3}
+    size: 3
+  - vfxTag: Gun_Damage
+    prefab: {fileID: 1000012903210382, guid: 197f1394c1a15c044a7f1b5332fb74ae, type: 3}
+    size: 10
+  - vfxTag: Ship_Attack
+    prefab: {fileID: 1000012903210382, guid: 6194f2480a73f8745b8e558ee598601a, type: 3}
+    size: 3

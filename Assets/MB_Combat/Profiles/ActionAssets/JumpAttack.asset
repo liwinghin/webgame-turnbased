@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26ab11014f584912aa7a117c01eda01, type: 3}
+  m_Name: JumpAttack
+  m_EditorClassIdentifier: 
+  actionData:
+    m_actionName: JUMP_ATTACK
+    m_actionType: 0
+    m_targetType: 0
+    m_animationType: 0
+    m_actionAnimation: 10
+    m_audioType: 1
+    m_actionIcon: {fileID: 21300000, guid: 6158765feb912499cb72a56f31e6c82c, type: 3}
+    m_AttackVFX: Sword_HeavyAttack
+    m_gotDamagedVFX: Sword_HeavyHit
